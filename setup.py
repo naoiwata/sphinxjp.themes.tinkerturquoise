@@ -11,8 +11,10 @@ long_description = '\n'.join([
 
 classifiers = [
     "Development Status :: 4 - Beta",
+    "Framework :: Sphinx :: Theme",
     "License :: OSI Approved :: MIT License",
-    "Programming Language :: Python",
+    "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 3",
     "Topic :: Software Development",
     "Topic :: Software Development :: Documentation",
     "Topic :: Text Processing :: Markup",
