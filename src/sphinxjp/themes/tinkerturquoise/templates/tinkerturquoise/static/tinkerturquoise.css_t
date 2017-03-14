@@ -83,14 +83,14 @@ pre code {
     color: #a94442;
     background-color: #f2dede;
     border-color: #ebccd1;
-} 
+}
 
 body {
     font-size: 15px;
 }
 
 table td, article p{
-    word-break: break-all;
+    word-break: normal;
 }
 
 table thead{
@@ -113,7 +113,7 @@ table p{
 .citation, .citation tbody, .citation th, .citation a{
     border: none;
     display: inline;
-    word-break: break-all;
+    word-break: normal;
 }
 
 .footnote td, .citation td {
@@ -129,7 +129,7 @@ p, strong, span, var, em, dt, dd, code, kbd, samp {
     font-size: 15px;
     line-height: 1.5em;
     font-family: sans-serif;
-    word-break: break-all;
+    word-break: normal;
 }
 
 pre, pre span, pre var, pre em{
@@ -138,7 +138,7 @@ pre, pre span, pre var, pre em{
     font-family: Consolas,Monaco,Menlo,"Courier New",monospace !important;
 }
 
-.sp p, .sp strong, .sp span, .sp var, .sp em, .sp dt, .sp dd, .sp code, .sp kbd, 
+.sp p, .sp strong, .sp span, .sp var, .sp em, .sp dt, .sp dd, .sp code, .sp kbd,
 .sp samp, .sp th, .sp li, .sp td, .sp .line-block, .sp .archive_link, .sp .blockquote, .sp article div {
     font-size: 14px;
     line-height: 1.5em;
@@ -225,8 +225,8 @@ nav li {
     width: 100%;
 }
 
-li.quicklink { 
-    display: none; 
+li.quicklink {
+    display: none;
 }
 
 article a:link, article a:visited {
